@@ -1,23 +1,26 @@
 import { NextRequest, NextResponse } from "next/server";
-import sgMail from '@sendgrid/mail';
+import { Resend } from "resend";
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY as string)
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(req: NextRequest) {
     const { email, contactType, firstName, lastName, message } = await req.json()
 
-    const content = {
-        to: 'contato_osmar.ditos@gmail.com',
-        from: 'no-reply@osmarditos.com',
-        subject: `Novo contato: ${contactType}`,
-        text: `Nome: ${firstName} ${lastName} Email: ${email} Tipo: ${contactType} Mensagem: ${message}`,
-    }
-
     try {
-        await sgMail.send(content)
-        return NextResponse.json({ sccess: true }, { status: 200 })
+        await resend.emails.send({
+            from: 'onboarding@resend.dev',
+            to: 'contato.osmarditosoficial@gmail.com',
+            subject: `Novo contato: ${contactType}`,
+            text: `
+             Nome: ${firstName} ${lastName} 
+             Email: ${email} 
+             Tipo: ${contactType} 
+             Mensagem: ${message}
+            `,
+        })
+        return NextResponse.json({ success: true }, { status: 200 })
     } catch (error) {
-        console.error('Erro ao enviar a mensagem:', error)
-        return NextResponse.json({ error: 'Erro ao enviar a mensagem'}, { status: 500 })
+        console.error(error)
+        return NextResponse.json({ error: 'Erro ao enviar email' }, { status: 500 })
     }
 }

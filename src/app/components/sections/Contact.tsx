@@ -44,7 +44,7 @@ export default function Contact() {
                 <h1 className="font-alfa font-bold text-2xl md:text-6xl text-orange-800 uppercase">Entre em contato conosco</h1>
                 <p className="uppercase text-sm md:text-base text-neutral-200 mt-4">Veja abaixo como entrar em contato conosco</p>
             </div>
-            <div className="max-w-xl mx-auto px-6 py-10 bg-neutral-100 shadow-md rounded-xl mb-5">
+            <div className="max-w-xl mx-auto px-6 py-10 bg-neutral-100 shadow-md rounded-xl mb-10">
                 <h2 className="text-2xl tracking-wide font-alfa mb-6 text-left text-orange-800">Converse conosco</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                     {/* Nome e sobrenome */}
