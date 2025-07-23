@@ -12,8 +12,8 @@ export default function About() {
           <div className="flex flex-col order-2 lg:order-1">
             <div className="aspect-[6/4] relative mt-18 overflow-hidden">
               <Image
-                src="/images/Img.jpg"
-                alt="Lucia & Lorenzo - Studio Olimpo"
+                src="/images/About-image.jpg"
+                alt="Foto da banda"
                 fill
                 className="object-cover bg-center shadow-xl"
                 priority
