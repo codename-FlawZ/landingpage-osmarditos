@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "motion/react";
-import { FaInstagram, FaTiktok, FaPlay, FaEye } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaEye } from "react-icons/fa";
 
 export default function Viral() {
   return (
@@ -72,16 +72,9 @@ export default function Viral() {
       Seu navegador não suporta o vídeo.
     </motion.video>
 
-    {/* Ícone de play centralizado */}
-    <div className="absolute inset-0 flex items-center justify-center z-20">
-      <div className="bg-white/70 p-4 rounded-full shadow-md">
-        <FaPlay className="text-black text-xl" />
-      </div>
-    </div>
-
     {/* Contador DENTRO da tela */}
-    <span className="absolute bottom-2 left-3 p-2 bg-neutral-950 rounded-2xl text-white text-xs font-bold z-30 drop-shadow">
-      1.2M
+    <span className="absolute inline-flex flex-row gap-2 items-center bottom-2 left-3 p-2 bg-neutral-950 rounded-2xl text-white text-xs font-bold z-30 drop-shadow">
+      <FaEye />1.2M
     </span>
   </div>
 

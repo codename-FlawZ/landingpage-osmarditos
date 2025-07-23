@@ -1,3 +1,6 @@
+'use client'
+import { FaInstagram, FaTiktok, FaPhone } from "react-icons/fa";
+
 export default function Footer() {
     return (
          <footer className="py-5 sm:px-10 px-5 bg-blue-950 text-neutral-300 shadow-xl">
@@ -6,13 +9,13 @@ export default function Footer() {
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
           <p className="font-semibold text-gray text-xs max-sm:text[0.6rem] cursor-default">Copyright @ 2025 Osmar Ditos</p>
-          <div className="inline-flex justify-evenly gap-3 text-sm max-sm:hidden">
+          <div className="inline-flex text-center items-center justify-evenly gap-3 text-sm max-sm:hidden">
               <p className="footer-links">
-                <a href="/contact">Home</a>
+                <a href="/contact"><FaInstagram /></a>
               </p>
               <span>|</span>
               <p className="footer-links">
-                <a href="/men">Sobre</a>
+                <a href="/men"><FaTiktok /></a>
               </p>
               <span>|</span>
               <p className="footer-links">

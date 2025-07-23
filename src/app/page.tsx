@@ -5,6 +5,7 @@ import Contact from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
 import PressKit from "./components/sections/PressKit";
 import Viral from "./components/sections/Viral";
+import ImageGrid from "./components/ui/ImageGrid";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Viral />
       <PressKit />
       <Contact />
+      <ImageGrid />
       <Footer />
     </main>
   );

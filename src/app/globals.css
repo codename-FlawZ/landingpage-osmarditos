@@ -31,5 +31,5 @@ body {
 }
 
 .footer-links {
-  @apply hover:text-neutral-600 transition-all duration-200
+  @apply hover:text-neutral-600 transition-all duration-200 
 }

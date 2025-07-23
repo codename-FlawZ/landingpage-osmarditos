@@ -10,9 +10,9 @@ export default function About() {
             <div className="max-sm:hidden max-w-7xl mx-auto px-8 text-neutral-800">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-start">
           <div className="flex flex-col order-2 lg:order-1">
-            <div className="aspect-[5/4] relative overflow-hidden">
+            <div className="aspect-[6/4] relative mt-18 overflow-hidden">
               <Image
-                src="/images/Band-image.jpg"
+                src="/images/Img.jpg"
                 alt="Lucia & Lorenzo - Studio Olimpo"
                 fill
                 className="object-cover bg-center shadow-xl"
@@ -22,12 +22,12 @@ export default function About() {
             <p className="text-center text-sm">Osmar Ditos: três cabra bão que misturam country,bluegrass e rock pra sacudir até espantalho no milharal.</p>
           </div>
           <div className="order-1 lg:order-2 lg:pt-16">
-            <div className="mb-4">
+            <div className="mb-3">
               <h1 className="text-6xl lg:text-7xl font-alfa text-shadow-2xl uppercase tracking-wide text-orange-950">
                 Sobre Nós
               </h1>
             </div>
-            <div className="mb-6">
+            <div className="mb-4">
               <h2 className="text-xl font-thin tracking-tight">
                 OSMAR DITOS
               </h2>
