@@ -1,5 +1,5 @@
 'use client'
-import { FaInstagram, FaTiktok, FaPhone } from "react-icons/fa";
+import { FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
     return (
