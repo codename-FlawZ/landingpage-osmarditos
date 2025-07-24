@@ -34,7 +34,7 @@ export default function About() {
             </div>
             <div className="space-y-6 text-lg leading-relaxed max-w-lg">
               <p>
-                Osmar Ditos é a nova cara do "punk roça": uma mistura explosiva de bluegrass, country e rock nacional. No repertório, versões ousadas de lendas como Elvis Presley, Lulu Santos e Roberto Carlos. Tradição e rebeldia no mesmo palco.
+                Osmar Ditos é a nova cara do punk roça: uma mistura explosiva de bluegrass, country e rock nacional. No repertório, versões ousadas de lendas como Elvis Presley, Lulu Santos e Roberto Carlos. Tradição e rebeldia no mesmo palco.
               </p>
               <div className="inline-flex flex-row items-center justify-evenly gap-5">
                 <div className="inline-flex flex-row items-center gap-5">
