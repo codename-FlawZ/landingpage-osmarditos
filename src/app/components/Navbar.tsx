@@ -27,13 +27,13 @@ export default function Navbar() {
           </div>
           {/* Links à direita */}
           <div className="flex justify-end items-center gap-4">
-           <a href="#home" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
+           <a href="#Home" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
             HOME
           </a>
-          <a href="#sobre" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
+          <a href="#Sobre" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
             SOBRE
           </a>
-          <a href="#contato" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
+          <a href="#Contato" className="text-sm text-blue-900 hover:text-neutral-800 transition-colors duration-200">
             CONTATO
           </a>
           <a href="#PressKit" className="p-2 px-3 bg-neutral-950 text-white hover:bg-orange-950 rounded-xl transition-colors duration-200">
