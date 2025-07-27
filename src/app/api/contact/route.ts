@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const data = await resend.emails.send({
-      from: 'contato.osmarditos.com', 
+      from: process.env.FROM_EMAIL!,
       to: 'contato.osmarditosoficial@gmail.com',
       subject: `Novo contato: ${contactType}`,
       text: `
