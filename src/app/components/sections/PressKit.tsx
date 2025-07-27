@@ -23,7 +23,7 @@ export default function PressKit() {
         {/* Mockup Único */}
         <div className="w-full flex justify-center">
           <Image
-            src="/images/mockup-presskit.png" 
+            src="/images/Mockup-presskit.png" 
             alt="Mockup Press Kit"
             width={1000}
             height={800}
