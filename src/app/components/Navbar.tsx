@@ -63,10 +63,10 @@ export default function Navbar() {
       {/* Barra lateral para o menu */}
       <nav className={`fixed top-0 w-60 h-95 rounded-l-xl bg-gray-100 shadow-lg z-[1002] pt-16 transition-all ease-in-out duration-150 md:hidden ${isMobileMenuOpen ? 'right-0' : '-right-64'}`}>
         <ul className="list-none p-0 m-0 text-orange-950">
-          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wider border-orange-950">Home</li>
-          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wider border-orange-950">Sobre</li>
-          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wide border-orange-950">Contato</li>
-          <button className="my-4 mx-5 py-3 px-2 bg-orange-950 rounded-xl text-neutral-100">Garanta nosso Press Kit</button>
+          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wider border-orange-950"><a href="Home">Home</a></li>
+          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wider border-orange-950"><a href="#Sobre">Sobre</a></li>
+          <li className="py-4 px-5 border-b font-alfa text-bold uppercase tracking-wide border-orange-950"><a href="#Contato">Contato</a></li>
+          <button className="my-4 mx-5 py-3 px-2 bg-orange-950 rounded-xl text-neutral-100"><a href="#Presskit">Garanta nosso Press Kit</a></button>
         </ul>
       </nav>
     </nav>

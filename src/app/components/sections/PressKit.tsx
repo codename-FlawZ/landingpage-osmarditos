@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function PressKit() {
   return (
-    <section id='#' className="w-full px-6 py-20 bg-neutral-950 text-center">
+    <section id='#PressKit' className="w-full px-6 py-20 bg-neutral-950 text-center">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

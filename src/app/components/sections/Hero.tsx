@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="bg-[url(/images/Herobg.png)] bg-center relative w-full h-screen overflow-hidden">
+    <section id="#Home" className="bg-[url(/images/Herobg.png)] bg-center relative w-full h-screen overflow-hidden">
       {/* Background Video */}
       <motion.video
         autoPlay

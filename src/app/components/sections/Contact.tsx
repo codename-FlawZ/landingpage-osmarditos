@@ -39,7 +39,7 @@ export default function Contact() {
     }
 
     return(
-        <section className="container w-full min-h-screen bg-neutral-950">
+        <section id="#Contact" className="container w-full min-h-screen bg-neutral-950">
             <div className="text-center mb-12">
                 <h1 className="font-alfa font-bold text-2xl md:text-6xl text-orange-800 uppercase">Entre em contato conosco</h1>
                 <p className="uppercase text-sm md:text-base text-neutral-200 mt-4">Veja abaixo como entrar em contato conosco</p>

@@ -5,7 +5,7 @@ import { FaTiktok } from "react-icons/fa";
 
 export default function About() {
     return(
-        <section className="container w-full h-screen bg-neutral-200">
+        <section id="#Sobre" className="container w-full h-screen bg-neutral-200">
           {/* Desktop */}
             <div className="max-sm:hidden max-w-7xl mx-auto px-8 text-neutral-800">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-start">
