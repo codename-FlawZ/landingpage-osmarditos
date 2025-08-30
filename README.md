@@ -15,7 +15,7 @@ O site reúne informações sobre a história da banda, galeria de fotos, vídeo
 
 ## 📸 Preview  
 
-> _Adicione aqui screenshots reais do site rodando._  
+> _Veja abaixo algumas screenshots do projeto._  
 
 ![Preview da Home](./public/screenshots/home.png)  
 ![Preview da Galeria](./public/screenshots/gallery.png)  
