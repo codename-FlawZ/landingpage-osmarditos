@@ -46,6 +46,7 @@ O site reúne informações sobre a história da banda, galeria de fotos, vídeo
 
 ## 📂 Estrutura do Projeto  
 
+```bash
 landingpage-osmarditos/
 ├── src/
 │ └── app/ # Estrutura principal (Next.js App Router)
@@ -57,6 +58,7 @@ landingpage-osmarditos/
 ├── next.config.ts
 └── README.md
 
+```
 
 ---
 
@@ -83,6 +85,8 @@ Execute em ambiente de desenvolvimento:
 npm run dev
 
 Abra no navegador: http://localhost:3000
+
+```
 
 📦 Deploy
 
