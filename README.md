@@ -46,3 +46,51 @@ O site reúne informações sobre a história da banda, galeria de fotos, vídeo
 
 ## 📂 Estrutura do Projeto  
 
+landingpage-osmarditos/
+├── src/
+│ └── app/ # Estrutura principal (Next.js App Router)
+├── public/ # Imagens, ícones e mídia estática
+├── package.json # Dependências e scripts
+├── tsconfig.json # Configuração TypeScript
+├── postcss.config.mjs
+├── eslint.config.mjs
+├── next.config.ts
+└── README.md
+
+
+---
+
+## 🛠️ Instalação e Uso  
+
+Clone o repositório:  
+
+```bash
+git clone https://github.com/codename-FlawZ/landingpage-osmarditos.git
+cd landingpage-osmarditos
+
+Instale as dependências:
+
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+
+Execute em ambiente de desenvolvimento:
+
+npm run dev
+
+Abra no navegador: http://localhost:3000
+
+📦 Deploy
+
+O projeto está publicado automaticamente via Vercel:
+👉 https://landingpage-osmarditos.vercel.app/
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+Veja o arquivo LICENSE
+ para mais detalhes.
